@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-CS student at KU Leuven<br>I’m currently learning declarative programming (Haskell)
+CS student at KU Leuven<br>I’m currently learning declarative programming (Haskell) and practicing my Python and C skills!
 
 
 ## 🌐 Socials:
