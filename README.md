@@ -11,8 +11,7 @@ CS student at KU Leuven<br>I’m currently learning declarative programming (Has
 # 📊 GitHub Stats:
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=chrysalxsms&theme=dark&hide_border=false&include_all_commits=false&count_private=false&cache_seconds=0" width="49%" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chrysalxsms&theme=dark&hide_border=false&cache_seconds=0&layout=donut&langs_count=8" width="49%" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chrysalxsms&theme=dark&hide_border=false&cache_seconds=0&layout=donut&langs_count=12" width="49%" />
 </p>
 
 ## 🏆 GitHub Trophies
