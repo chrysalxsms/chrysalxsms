@@ -1,0 +1,19 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"      # daily at midnight UTC
+  workflow_dispatch:         # lets you run it manually
+permissions:
+  contents: write            # so the action can commit the SVG
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: Europe/Brussels
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
