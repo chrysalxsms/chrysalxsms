@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 600 150" fill="none" shape-rendering="crispEdges">
+<title>A little code, a little company</title>
+<desc>A cozy pixel-art room with a sunset window, lavender curtains, colorful books, a honey-colored lamp, a steaming mug and the original little pixel cat.</desc>
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#49364b"/><stop offset="1" stop-color="#674354"/></linearGradient>
+  <linearGradient id="sunset" x2="0" y2="1"><stop stop-color="#7772a9"/><stop offset=".5" stop-color="#d58aa5"/><stop offset="1" stop-color="#f4bc97"/></linearGradient>
+</defs>
+<path fill="url(#wall)" d="M0 0h600v150H0z"/>
+<path fill="#7c5362" opacity=".3" d="M0 31h600v2H0zm0 37h600v2H0zm0 37h600v2H0z"/>
+<path fill="#3b2d40" d="M0 0h600v8H0zM0 0h8v150H0zm584 0h16v150h-16z"/>
+<!-- The evening window, with its soft sunset and distant rooftops. -->
+<path fill="#352b40" d="M141 15h184v96H141z"/>
+<path fill="#c28e85" d="M145 18h176v89H145z"/>
+<path fill="url(#sunset)" d="M150 23h166v78H150z"/>
+<path fill="#ffe0b1" d="M266 49h14v4h5v16h-5v5h-14v-5h-5V53h5z"/>
+<path fill="#edd2d4" opacity=".65" d="M167 40h29v3h14v3h-50v-3h7zm66-12h27v3h9v3h-45v-3h9z"/>
+<path fill="#8b719b" d="M150 80h14v-5h18v-7h17v7h17v8h19v-6h20v-5h15v8h21v-5h25v26H150z"/>
+<path fill="#615578" d="M150 91h15v-7h20v9h18v-7h17v-8h19v12h17v-6h18v8h22v-7h20v16H150z"/>
+<path fill="#efbd92" d="M173 89h3v4h-3zm42 0h3v4h-3zm15-5h3v4h-3zm54 7h3v4h-3z"/>
+<path fill="#b5807f" d="M229 20h5v85h-5zM148 62h170v4H148z"/>
+<path fill="#e3b09a" d="M141 105h184v5H141z"/>
+<!-- Lavender curtains gathered to either side. -->
+<path fill="#3d2d49" d="M127 12h210v4H127z"/>
+<path fill="#a186b2" d="M132 16h23v30h-4v24h-5v27h-18V70h4zm180 0h20v54h4v27h-18V70h-4V46h-2z"/>
+<path fill="#b99ac3" d="M136 17h5v48h-5zm185 0h5v48h-5z"/>
+<path fill="#755b8b" d="M146 17h5v34h-5zm-14 59h5v21h-5zm195-59h5v47h-5zm3 59h5v21h-5z"/>
+<path fill="#edc88b" d="M130 68h17v4h-17zm186 0h18v4h-18z"/>
+<!-- A shelf full of well-loved books. -->
+<path fill="#392c39" d="M25 24h85v5H25zm0 43h85v5H25z"/>
+<path fill="#bc846e" d="M23 21h89v4H23zm0 43h89v4H23z"/>
+<path fill="#df9eb4" d="M31 36h8v27h-8z"/><path fill="#9aaad4" d="M41 31h9v32h-9z"/><path fill="#edc387" d="M52 38h7v25h-7z"/><path fill="#b9a0d1" d="M61 34h10v29H61z"/><path fill="#d68c78" d="m75 37 7-2 8 27-7 2z"/>
+<path fill="#f2d4bc" d="M32 40h6v2h-6zm10-4h7v2h-7zm20 3h8v2h-8zm-9 6h5v2h-5z"/>
+<path fill="#d89991" d="M36 11h17v9H36z"/><path fill="#e8b790" d="M39 9h11v3H39z"/><path fill="#e9c7b0" d="M73 12h20v8H73z"/><path fill="#b89bc8" d="M76 8h14v4H76z"/>
+<!-- Small pinned sketches bring a little life to the wall. -->
+<path fill="#ddbaa5" d="M356 22h25v28h-25z"/><path fill="#ad8ba8" d="M361 29h15v2h-15zm0 5h10v2h-10z"/><path fill="#e8c9a9" d="M390 31h21v23h-21z"/><path fill="#c4839d" d="M396 38h4v4h4v4h-8z"/>
+<path fill="#b7a0ce" d="M362 20h11v4h-11z"/><path fill="#e8bc81" d="M395 29h10v4h-10z"/>
+<!-- Warm pools of lamplight, a wooden desk, and a lavender chair. -->
+<path fill="#e7af79" opacity=".1" d="M414 67h29l34 55h-96z"/>
+<path fill="#e7af79" opacity=".08" d="M416 78h26l20 44h-64z"/>
+<path fill="#ad7a8b" d="M195 107h46v30h-46z"/><path fill="#c698a5" d="M200 111h36v19h-36z"/><path fill="#685272" d="M193 133h50v6h-50z"/>
+<path fill="#664658" d="M214 139h7v11h-7z"/>
+<path fill="#b78068" d="M23 121h545v9H23z"/><path fill="#dbab88" d="M23 121h545v3H23z"/>
+<path fill="#77545b" d="M32 130h15v20H32zm511 0h15v20h-15z"/>
+<path fill="#352b3e" d="M0 141h600v9H0z"/>
+<!-- A tiny laptop and a cup of something warm. -->
+<path fill="#332b40" d="M154 83h74v36h-74z"/><path fill="#7e719a" d="M157 86h68v30h-68z"/><path fill="#252d44" d="M160 89h62v24h-62z"/>
+<path fill="#e9a1be" d="M166 95h14v2h-14zm0 5h24v2h-24z"/><path fill="#99bfe4" d="M184 95h13v2h-13zm-11 11h18v2h-18z"/><path fill="#eac985" d="M195 100h15v2h-15z"/>
+<path fill="#b4a0bf" d="M149 119h84v3h-84z"/>
+<path fill="#e4b0b9" d="M260 105h15v14h-15z"/><path fill="#edc8c2" d="M263 107h9v3h-9z"/><path fill="#e4b0b9" d="M275 108h5v8h-5z"/><path fill="#5f4151" d="M276 110h2v4h-2z"/>
+<path fill="#eac9c8" opacity=".45" d="M264 96h2v5h-2zm5-7h2v5h-2z"/>
+<!-- A honey-colored reading lamp. -->
+<path fill="#c59468" d="M421 79h4v38h-4z"/><path fill="#e9c58b" d="M412 116h23v5h-23z"/>
+<path fill="#f5d392" d="M413 59h23v7h4v9h4v5h-39v-5h4v-9h4z"/>
+<path fill="#ffe4af" d="M409 77h31v5h-31z"/><path fill="#cfa478" d="M416 58h18v3h-18z"/>
+<!-- A soft cushion for the original cat, restored below. -->
+<path fill="#b48ba7" d="M474 115h58v6h-58z"/><path fill="#d6a7bd" d="M479 112h48v4h-48z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60" fill="none" shape-rendering="crispEdges" x="480" y="53"><title>The original little pixel cat</title><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="52" height="60" viewBox="0 0 52 60" fill="none" x="0" y="0">
+<g id="cat-0-Group">
+<path id="cat-0-Vector" d="M8 0H4V4H8V0Z" fill="#05060A" />
+<path id="cat-0-Vector_2" d="M44 0H40V4H44V0Z" fill="#05060A" />
+<path id="cat-0-Vector_3" d="M4 4H0V8H4V4Z" fill="#05060A" />
+<path id="cat-0-Vector_4" d="M12 4H8V8H12V4Z" fill="#05060A" />
+<path id="cat-0-Vector_5" d="M40 4H36V8H40V4Z" fill="#05060A" />
+<path id="cat-0-Vector_6" d="M48 4H44V8H48V4Z" fill="#05060A" />
+<path id="cat-0-Vector_7" d="M4 8H0V12H4V8Z" fill="#05060A" />
+<path id="cat-0-Vector_8" d="M36 8H12V12H36V8Z" fill="#05060A" />
+<path id="cat-0-Vector_9" d="M48 8H44V12H48V8Z" fill="#05060A" />
+<path id="cat-0-Vector_10" d="M4 12H0V16H4V12Z" fill="#05060A" />
+<path id="cat-0-Vector_11" d="M48 12H44V16H48V12Z" fill="#05060A" />
+<path id="cat-0-Vector_12" d="M4 16H0V20H4V16Z" fill="#05060A" />
+<path id="cat-0-Vector_13" d="M48 16H44V20H48V16Z" fill="#05060A" />
+<path id="cat-0-Vector_14" d="M4 20H0V24H4V20Z" fill="#05060A" />
+<path id="cat-0-Vector_15" d="M48 20H44V24H48V20Z" fill="#05060A" />
+<path id="cat-0-Vector_16" d="M4 24H0V28H4V24Z" fill="#05060A" />
+<path id="cat-0-Vector_17" d="M48 24H44V28H48V24Z" fill="#05060A" />
+<path id="cat-0-Vector_18" d="M4 28H0V32H4V28Z" fill="#05060A" />
+<path id="cat-0-Vector_19" d="M48 28H44V32H48V28Z" fill="#05060A" />
+<path id="cat-0-Vector_20" d="M8 32H4V36H8V32Z" fill="#05060A" />
+<path id="cat-0-Vector_21" d="M20 32H16V36H20V32Z" fill="#05060A" />
+<path id="cat-0-Vector_22" d="M32 32H28V36H32V32Z" fill="#05060A" />
+<path id="cat-0-Vector_23" d="M44 32H40V36H44V32Z" fill="#05060A" />
+<path id="cat-0-Vector_24" d="M40 36H8V40H40V36Z" fill="#05060A" />
+<path id="cat-0-Vector_25" d="M12 40H8V44H12V40Z" fill="#05060A" />
+<path id="cat-0-Vector_26" d="M40 40H36V44H40V40Z" fill="#05060A" />
+<path id="cat-0-Vector_27" d="M52 40H44V44H52V40Z" fill="#05060A" />
+<path id="cat-0-Vector_28" d="M8 44H4V48H8V44Z" fill="#05060A" />
+<path id="cat-0-Vector_29" d="M44 44H40V48H44V44Z" fill="#05060A" />
+<path id="cat-0-Vector_30" d="M52 44H48V48H52V44Z" fill="#05060A" />
+<path id="cat-0-Vector_31" d="M8 48H4V52H8V48Z" fill="#05060A" />
+<path id="cat-0-Vector_32" d="M48 48H40V52H48V48Z" fill="#05060A" />
+<path id="cat-0-Vector_33" d="M8 52H4V56H8V52Z" fill="#05060A" />
+<path id="cat-0-Vector_34" d="M44 52H40V56H44V52Z" fill="#05060A" />
+<path id="cat-0-Vector_35" d="M40 56H8V60H40V56Z" fill="#05060A" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40" height="8" viewBox="0 0 40 8" fill="none" x="4" y="4">
+<g id="cat-1-Group">
+<path id="cat-1-Vector" d="M4 0H0V4H4V0Z" fill="#FF77A8" />
+<path id="cat-1-Vector_2" d="M40 0H36V4H40V0Z" fill="#FF77A8" />
+<path id="cat-1-Vector_3" d="M8 4H0V8H8V4Z" fill="#FF77A8" />
+<path id="cat-1-Vector_4" d="M40 4H32V8H40V4Z" fill="#FF77A8" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="44" height="44" viewBox="0 0 44 44" fill="none" x="4" y="12">
+<g id="cat-2-Group">
+<path id="cat-2-Vector" d="M40 0H0V4H40V0Z" fill="#2F3446" />
+<path id="cat-2-Vector_2" d="M4 4H0V8H4V4Z" fill="#2F3446" />
+<path id="cat-2-Vector_3" d="M40 4H8V8H40V4Z" fill="#2F3446" />
+<path id="cat-2-Vector_4" d="M4 8H0V12H4V8Z" fill="#2F3446" />
+<path id="cat-2-Vector_5" d="M24 8H16V12H24V8Z" fill="#2F3446" />
+<path id="cat-2-Vector_6" d="M40 8H36V12H40V8Z" fill="#2F3446" />
+<path id="cat-2-Vector_7" d="M4 12H0V16H4V12Z" fill="#2F3446" />
+<path id="cat-2-Vector_8" d="M24 12H16V16H24V12Z" fill="#2F3446" />
+<path id="cat-2-Vector_9" d="M40 12H36V16H40V12Z" fill="#2F3446" />
+<path id="cat-2-Vector_10" d="M16 16H4V20H16V16Z" fill="#2F3446" />
+<path id="cat-2-Vector_11" d="M36 16H24V20H36V16Z" fill="#2F3446" />
+<path id="cat-2-Vector_12" d="M12 20H4V24H12V20Z" fill="#2F3446" />
+<path id="cat-2-Vector_13" d="M24 20H16V24H24V20Z" fill="#2F3446" />
+<path id="cat-2-Vector_14" d="M36 20H28V24H36V20Z" fill="#2F3446" />
+<path id="cat-2-Vector_15" d="M12 28H8V32H12V28Z" fill="#2F3446" />
+<path id="cat-2-Vector_16" d="M32 28H28V32H32V28Z" fill="#2F3446" />
+<path id="cat-2-Vector_17" d="M16 32H4V36H16V32Z" fill="#2F3446" />
+<path id="cat-2-Vector_18" d="M36 32H24V36H36V32Z" fill="#2F3446" />
+<path id="cat-2-Vector_19" d="M44 32H40V36H44V32Z" fill="#2F3446" />
+<path id="cat-2-Vector_20" d="M36 36H4V40H36V36Z" fill="#2F3446" />
+<path id="cat-2-Vector_21" d="M8 40H4V44H8V40Z" fill="#2F3446" />
+<path id="cat-2-Vector_22" d="M28 40H12V44H28V40Z" fill="#2F3446" />
+<path id="cat-2-Vector_23" d="M36 40H32V44H36V40Z" fill="#2F3446" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="40" viewBox="0 0 28 40" fill="none" x="8" y="16">
+<g id="cat-3-Group">
+<path id="cat-3-Vector" d="M4 0H0V4H4V0Z" fill="#4F5772" />
+<path id="cat-3-Vector_2" d="M8 36H4V40H8V36Z" fill="#4F5772" />
+<path id="cat-3-Vector_3" d="M28 36H24V40H28V36Z" fill="#4F5772" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="8" viewBox="0 0 32 8" fill="none" x="8" y="20">
+<g id="cat-4-Group">
+<path id="cat-4-Vector" d="M4 0H0V4H4V0Z" fill="#FFD84D" />
+<path id="cat-4-Vector_2" d="M12 0H8V4H12V0Z" fill="#FFD84D" />
+<path id="cat-4-Vector_3" d="M24 0H20V4H24V0Z" fill="#FFD84D" />
+<path id="cat-4-Vector_4" d="M32 0H28V4H32V0Z" fill="#FFD84D" />
+<path id="cat-4-Vector_5" d="M4 4H0V8H4V4Z" fill="#FFD84D" />
+<path id="cat-4-Vector_6" d="M12 4H8V8H12V4Z" fill="#FFD84D" />
+<path id="cat-4-Vector_7" d="M24 4H20V8H24V4Z" fill="#FFD84D" />
+<path id="cat-4-Vector_8" d="M32 4H28V8H32V4Z" fill="#FFD84D" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="8" viewBox="0 0 24 8" fill="none" x="12" y="20">
+<g id="cat-5-Group">
+<path id="cat-5-Vector" d="M4 0H0V4H4V0Z" fill="#05060A" />
+<path id="cat-5-Vector_2" d="M24 0H20V4H24V0Z" fill="#05060A" />
+<path id="cat-5-Vector_3" d="M4 4H0V8H4V4Z" fill="#05060A" />
+<path id="cat-5-Vector_4" d="M24 4H20V8H24V4Z" fill="#05060A" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40" height="4" viewBox="0 0 40 4" fill="none" x="4" y="28">
+<g id="cat-6-Group">
+<path id="cat-6-Vector" d="M4 0H0V4H4V0Z" fill="#FF77A8" />
+<path id="cat-6-Vector_2" d="M40 0H36V4H40V0Z" fill="#FF77A8" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="8" height="4" viewBox="0 0 8 4" fill="none" x="20" y="28">
+<g id="cat-7-Group">
+<path id="cat-7-Vector" d="M8 0H0V4H8V0Z" fill="#FF77A8" />
+</g>
+</svg><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="8" viewBox="0 0 16 8" fill="none" x="16" y="40">
+<g id="cat-8-Group">
+<path id="cat-8-Vector" d="M16 0H0V4H16V0Z" fill="#E6EDF3" />
+<path id="cat-8-Vector_2" d="M12 4H4V8H12V4Z" fill="#E6EDF3" />
+</g>
+</svg></svg>
+<path fill="#d9a0aa" d="M344 115h34v5h-34z"/><path fill="#d1b787" d="M347 111h28v4h-28z"/><path fill="#aa9ac6" d="M351 106h22v5h-22z"/>
+</svg>

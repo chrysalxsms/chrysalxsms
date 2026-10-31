@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 180 110">
+<title>Computational geometry visualiser</title>
+<desc>A convex hull connects peach-colored boundary points around a scatter of soft mauve points on a dark grid.</desc>
+<defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0v18" fill="none" stroke="#3a2d3b" stroke-width=".6"/></pattern></defs>
+<path fill="#201a24" d="M0 0h180v110H0z"/><path fill="url(#grid)" d="M0 0h180v110H0z"/>
+<path d="M26 83 36 31 52 18 112 25 157 38 151 88 39 91z" fill="#cf9daf" fill-opacity=".04" stroke="#cf9daf" stroke-width="1"/>
+<g fill="#b29dbf"><path d="M66 37h3v3h-3zm14 27h3v3h-3zm17-17h3v3h-3zm16 14h3v3h-3zm-50 15h3v3h-3zm26-40h3v3h-3zm38 13h3v3h-3zm-12-18h3v3h-3zm-22 43h3v3h-3zm-43-12h3v3h-3zm29-9h3v3h-3z"/></g>
+<g fill="#d6b194"><path d="M24 81h4v4h-4zm10-52h4v4h-4zm16-13h4v4h-4zm60 7h4v4h-4zm45 13h4v4h-4zm-6 50h4v4h-4zM37 89h4v4h-4z"/></g>
+</svg>

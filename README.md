@@ -1,21 +1,52 @@
-## Hi there 👋
+<!-- Upload the included assets folder alongside this README. -->
+![A cozy pixel room with a sunset window, books, a warm desk lamp and my original pixel cat](assets/cozy-banner.svg)
 
-# 💫 About Me:
-CS student at KU Leuven<br>I’m currently learning declarative programming (Haskell) and practicing my Python and C skills!
+# Hi, I'm Aishwarya.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aishwaryabringmans) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aishwarya.bringmans@gmail.com) 
+I study at KU Leuven and like making cute things with code.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-# 📊 GitHub Stats:
-![Isometric commit calendar](metrics.plugin.isocalendar.svg)
-<img src="https://github-readme-stats-omega-one-24.vercel.app/api/top-langs/?username=chrysalxsms&theme=dark&hide_border=false&layout=compact&langs_count=20&card_width=450" width="49%" />
+## Toolbox
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=chrysalxsms&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+`Python` `Java` `JavaScript` `TypeScript` `HTML` `CSS` `Haskell` `C` `SQL` `Git` `Godot` `Linux`
+
+## Languages
+
+| Language | Share |
+| :--- | ---: |
+| Python | 57.4% |
+| TypeScript | 29.5% |
+| JavaScript | 6.1% |
+| CSS | 5.0% |
+| TeX | 1.0% |
+| C | 0.3% |
+| GDScript | 0.2% |
+| HTML | 0.2% |
+| Java | 0.2% |
+| C++ | <0.1% |
+| Haskell | <0.1% |
+
+## Practice
+
+**24 problems solved** across LeetCode and NeetCode.
+
+| LeetCode — 12 solved | NeetCode — 12 solved |
+| :--- | :--- |
+| Easy: 7 · Medium: 5 · Hard: 0 | Python for Beginners: 7 |
+| | Data Structures & Algorithms: 5 |
+
+> Stats are updated manually.
+
+## Projects
+
+![Computational geometry visualisation](assets/geometry.svg)
+
+### Computational Geometry Visualisers
+
+Interactive visualisers for computational geometry algorithms like convex hulls.
+
+`JavaScript` `Algorithms`
 
 ---
-[![](https://komarev.com/ghpvc/?username=chrysalxsms&icon=9&color=6)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<img src="assets/pixel-cat.svg" width="39" height="45" alt="My little pixel cat" />
+
