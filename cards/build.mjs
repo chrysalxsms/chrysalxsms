@@ -1,58 +1,72 @@
-// Builds the pixel README cards into ../assets/*.svg.
+// Builds the profile README sections into ../assets/*.svg, in the
+// "little corner" design from src/App.tsx, with live stats.
 // Run: GH_TOKEN=<token> node cards/build.mjs
-// Edit CONFIG below to change what the cards say.
+// Edit CONFIG below to change what the README says.
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import {
-  renderButton,
-  renderFooter,
-  renderHeader,
-  renderInventory,
-  renderLanguages,
-  renderPractice,
-  renderProject,
-} from "./cards.js";
 import {
   fetchNeetCode,
   fetchOwnLanguages,
   fetchQuest,
   fetchRepo,
 } from "./fetchers.js";
-import { C } from "./kit.js";
+import {
+  renderContact,
+  renderFooter,
+  renderIntro,
+  renderLanguages,
+  renderPractice,
+  renderProject,
+  renderToolbox,
+} from "./profile.js";
 
 const CONFIG = {
   username: "chrysalxsms",
   name: "Aishwarya",
-  about:
-    "Hello! Welcome to my GitHub. I study at KU Leuven and like making cute things with code.",
-  tz: "Europe/Brussels",
-  buttons: [
-    { file: "button-linkedin", label: "LinkedIn", icon: "linkedin", color: C.sky },
-    { file: "button-email", label: "Email", icon: "email", color: C.mint },
+  about: "I study at KU Leuven and like making cute things with code.",
+  badge: "Student at KU Leuven",
+  // [symbol, name, colour: rose | peach | gold | blue | lavender]
+  tools: [
+    ["Py", "Python", "rose"],
+    ["Jv", "Java", "peach"],
+    ["JS", "JavaScript", "gold"],
+    ["TS", "TypeScript", "blue"],
+    ["<>", "HTML", "peach"],
+    ["#", "CSS", "lavender"],
+    ["λ", "Haskell", "lavender"],
+    ["C", "C", "blue"],
+    ["DB", "SQL", "gold"],
+    ["⌘", "Git", "peach"],
+    ["Gd", "Godot", "rose"],
+    ["Lx", "Linux", "gold"],
   ],
-  inventory: ["Python", "Java", "JavaScript", "TypeScript", "HTML", "CSS", "Haskell", "C", "SQL", "Git", "Godot", "Linux"],
-  languages: { exclude: [], hide: [], count: 12 },
+  languages: { exclude: [], hide: [], count: 11 },
   practice: { leetcodeRepo: "leetcode", neetcodeRepo: "neetcode-submissions" },
-  projects: [{ repo: "computational-geometry-visualisers", tags: "algorithms" }],
-  footer: "THANKS FOR STOPPING BY",
+  project: {
+    repo: "computational-geometry-visualisers",
+    title: "Computational Geometry Visualisers",
+    description: "Interactive visualisers for computational geometry algorithms like convex hulls.",
+    topic: "Algorithms",
+    image: "geometry.svg",
+  },
 };
 
-const OUT = fileURLToPath(new URL("../assets/", import.meta.url));
+const ASSETS = fileURLToPath(new URL("../assets/", import.meta.url));
 
 /** @type {Record<string, () => Promise<string>>} */
 const jobs = {
-  header: async () =>
-    renderHeader({ name: CONFIG.name, about: CONFIG.about, date: new Date(), tz: CONFIG.tz }),
-  inventory: async () => renderInventory({ items: CONFIG.inventory }),
+  intro: async () => renderIntro(CONFIG),
+  "contact-linkedin": async () => renderContact({ kind: "linkedin", label: "LinkedIn" }),
+  "contact-email": async () => renderContact({ kind: "email", label: "Email" }),
+  toolbox: async () => renderToolbox({ tools: /** @type {any} */ (CONFIG.tools) }),
   languages: async () => {
     const { exclude, hide, count } = CONFIG.languages;
     const hidden = hide.map((h) => h.toLowerCase());
-    const list = (await fetchOwnLanguages(CONFIG.username, exclude))
+    const langs = (await fetchOwnLanguages(CONFIG.username, exclude))
       .filter((l) => !hidden.includes(l.name.toLowerCase()))
       .slice(0, count);
-    const total = list.reduce((a, l) => a + l.size, 0);
-    return renderLanguages(list, total, { title: "Languages" });
+    return renderLanguages({ langs });
   },
   practice: async () => {
     const [lc, nc] = await Promise.allSettled([
@@ -63,38 +77,33 @@ const jobs = {
       throw lc.reason;
     }
     return renderPractice({
-      title: "LeetCode + NeetCode",
       leetcode: lc.status === "fulfilled" ? lc.value : { easy: 0, medium: 0, hard: 0 },
       neetcode: nc.status === "fulfilled" ? nc.value : [],
     });
   },
-  footer: async () => renderFooter({ text: CONFIG.footer }),
-};
-for (const b of CONFIG.buttons) {
-  jobs[b.file] = async () => renderButton(b);
-}
-CONFIG.projects.forEach((p, i) => {
-  jobs[`project-${p.repo}`] = async () => {
+  project: async () => {
+    const p = CONFIG.project;
     const repo = await fetchRepo(CONFIG.username, p.repo);
     return renderProject({
-      index: i + 1,
-      name: repo.name,
-      description: repo.description,
+      title: p.title,
+      description: p.description || repo.description,
       language: repo.language,
-      stars: repo.stars,
-      tags: p.tags,
+      topic: p.topic,
+      image: await readFile(`${ASSETS}${p.image}`, "utf8"),
     });
-  };
-});
+  },
+  footer: async () =>
+    renderFooter({ cat: await readFile(`${ASSETS}pixel-cat.svg`, "utf8") }),
+};
 
-await mkdir(OUT, { recursive: true });
+await mkdir(ASSETS, { recursive: true });
 let failed = 0;
 for (const [file, job] of Object.entries(jobs)) {
   try {
-    await writeFile(`${OUT}${file}.svg`, await job());
+    await writeFile(`${ASSETS}${file}.svg`, await job());
     console.log(`ok    ${file}.svg`);
   } catch (err) {
-    // keep the previous image if one card fails
+    // keep the previous image if one section fails
     failed++;
     console.error(`FAIL  ${file}.svg: ${err instanceof Error ? err.message : err}`);
   }
