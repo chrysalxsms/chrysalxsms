@@ -1,6 +1,6 @@
 <img src="assets/cozy-banner.svg" width="100%" alt="A cozy pixel room with a sunset window, books, a warm desk lamp and my original pixel cat" />
 
-<img src="assets/intro.svg" width="100%" alt="Hi, I'm Aishwarya. Student at KU Leuven. I study at KU Leuven and like making cute things with code." />
+<img src="assets/intro.svg" width="100%" alt="Hi, I'm Aishwarya. Student at KU Leuven. I study at KU Leuven like making cool things with code." />
 
 <a href="https://linkedin.com/in/aishwaryabringmans"><img src="assets/contact-linkedin.svg" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:aishwarya.bringmans@gmail.com"><img src="assets/contact-email.svg" alt="Email" /></a>
 
