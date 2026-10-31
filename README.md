@@ -1,52 +1,18 @@
-<!-- Upload the included assets folder alongside this README. -->
-![A cozy pixel room with a sunset window, books, a warm desk lamp and my original pixel cat](assets/cozy-banner.svg)
+<div align="center">
 
-# Hi, I'm Aishwarya.
+<img src="assets/header.svg" width="100%" alt="Hello and welcome! I'm Aishwarya. I study at KU Leuven and like making cute things with code." />
 
-I study at KU Leuven and like making cute things with code.
+<a href="https://linkedin.com/in/aishwaryabringmans"><img src="assets/button-linkedin.svg" alt="LinkedIn" /></a>
+<a href="mailto:aishwarya.bringmans@gmail.com"><img src="assets/button-email.svg" alt="Email" /></a>
 
-## Toolbox
+<img src="assets/inventory.svg" width="100%" alt="Toolbox: Python, Java, JavaScript, TypeScript, HTML, CSS, Haskell, C, SQL, Git, Godot, Linux" />
 
-`Python` `Java` `JavaScript` `TypeScript` `HTML` `CSS` `Haskell` `C` `SQL` `Git` `Godot` `Linux`
+<img src="assets/languages.svg" width="100%" alt="Languages I write" />
 
-## Languages
+<img src="assets/practice.svg" width="100%" alt="LeetCode and NeetCode progress" />
 
-| Language | Share |
-| :--- | ---: |
-| Python | 57.4% |
-| TypeScript | 29.5% |
-| JavaScript | 6.1% |
-| CSS | 5.0% |
-| TeX | 1.0% |
-| C | 0.3% |
-| GDScript | 0.2% |
-| HTML | 0.2% |
-| Java | 0.2% |
-| C++ | <0.1% |
-| Haskell | <0.1% |
+<a href="https://github.com/chrysalxsms/computational-geometry-visualisers"><img src="assets/project-computational-geometry-visualisers.svg" width="100%" alt="Project: Computational Geometry Visualisers" /></a>
 
-## Practice
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by!" />
 
-**24 problems solved** across LeetCode and NeetCode.
-
-| LeetCode — 12 solved | NeetCode — 12 solved |
-| :--- | :--- |
-| Easy: 7 · Medium: 5 · Hard: 0 | Python for Beginners: 7 |
-| | Data Structures & Algorithms: 5 |
-
-> Stats are updated manually.
-
-## Projects
-
-![Computational geometry visualisation](assets/geometry.svg)
-
-### Computational Geometry Visualisers
-
-Interactive visualisers for computational geometry algorithms like convex hulls.
-
-`JavaScript` `Algorithms`
-
----
-
-<img src="assets/pixel-cat.svg" width="39" height="45" alt="My little pixel cat" />
-
+</div>
