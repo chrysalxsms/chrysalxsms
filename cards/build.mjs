@@ -60,7 +60,7 @@ const jobs = {
   "contact-linkedin": async () => renderContact({ kind: "linkedin", label: "LinkedIn" }),
   "contact-email": async () => renderContact({ kind: "email", label: "Email" }),
   toolbox: async () => renderToolbox({ tools: /** @type {any} */ (CONFIG.tools) }),
-  languages: async () => {
+  "languages-bar": async () => {
     const { exclude, hide, count } = CONFIG.languages;
     const hidden = hide.map((h) => h.toLowerCase());
     const langs = (await fetchOwnLanguages(CONFIG.username, exclude))
@@ -68,7 +68,7 @@ const jobs = {
       .slice(0, count);
     return renderLanguages({ langs });
   },
-  practice: async () => {
+  "practice-cards": async () => {
     const [lc, nc] = await Promise.allSettled([
       fetchQuest(CONFIG.username, CONFIG.practice.leetcodeRepo),
       fetchNeetCode(CONFIG.username, CONFIG.practice.neetcodeRepo),
