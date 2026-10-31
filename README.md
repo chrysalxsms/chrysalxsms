@@ -11,5 +11,3 @@
 <img src="assets/practice-cards.svg" width="100%" alt="LeetCode and NeetCode practice" />
 
 <a href="https://github.com/chrysalxsms/computational-geometry-visualisers"><img src="assets/project.svg" width="100%" alt="Project: Computational Geometry Visualisers" /></a>
-
-<img src="assets/footer.svg" width="100%" alt="My little pixel cat" />
