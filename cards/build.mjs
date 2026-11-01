@@ -3,7 +3,8 @@
 // Run: GH_TOKEN=<token> node cards/build.mjs
 // Edit CONFIG below to change what the README says.
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import {
   fetchNeetCode,
@@ -96,16 +97,37 @@ const jobs = {
     renderFooter({ cat: await readFile(`${ASSETS}pixel-cat.svg`, "utf8") }),
 };
 
+// Each image is saved as <name>-<content hash>.svg and the README is pointed
+// at it. GitHub's image cache can keep serving an old file for hours, but a
+// new name always loads fresh.
+const README = fileURLToPath(new URL("../README.md", import.meta.url));
+let readme = await readFile(README, "utf8");
+
 await mkdir(ASSETS, { recursive: true });
+const existing = await readdir(ASSETS);
 let failed = 0;
-for (const [file, job] of Object.entries(jobs)) {
+for (const [name, job] of Object.entries(jobs)) {
   try {
-    await writeFile(`${ASSETS}${file}.svg`, await job());
-    console.log(`ok    ${file}.svg`);
+    const svg = await job();
+    const hash = createHash("sha256").update(svg).digest("hex").slice(0, 8);
+    const file = `${name}-${hash}.svg`;
+    const old = new RegExp(`^${name}(-[0-9a-f]{8})?\\.svg$`);
+    for (const f of existing) {
+      if (old.test(f) && f !== file) {
+        await unlink(`${ASSETS}${f}`);
+      }
+    }
+    await writeFile(`${ASSETS}${file}`, svg);
+    readme = readme.replace(
+      new RegExp(`assets/${name}(-[0-9a-f]{8})?\\.svg`, "g"),
+      `assets/${file}`,
+    );
+    console.log(`ok    ${file}`);
   } catch (err) {
     // keep the previous image if one section fails
     failed++;
-    console.error(`FAIL  ${file}.svg: ${err instanceof Error ? err.message : err}`);
+    console.error(`FAIL  ${name}: ${err instanceof Error ? err.message : err}`);
   }
 }
+await writeFile(README, readme);
 process.exit(failed ? 1 : 0);
