@@ -24,7 +24,7 @@ import {
 const CONFIG = {
   username: "chrysalxsms",
   name: "Aishwarya",
-  about: "I study at KU Leuven and like making cute things with code.",
+  about: "I study at KU Leuven and like making cool things with code.",
   badge: "Student at KU Leuven",
   // [symbol, name, colour: rose | peach | gold | blue | lavender]
   tools: [
