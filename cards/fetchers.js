@@ -61,6 +61,7 @@ export const fetchOwnLanguages = async (username, exclude = []) => {
               nodes {
                 name
                 isMirror
+                isPrivate
                 languages(first: 20, orderBy: { field: SIZE, direction: DESC }) {
                   edges {
                     size
@@ -88,6 +89,7 @@ export const fetchOwnLanguages = async (username, exclude = []) => {
         sizes[edge.node.name] = (sizes[edge.node.name] || 0) + edge.size;
       }
     }
+    console.log(`page ${page}: ${repos.nodes.length} repos, ${repos.nodes.filter((r) => r.isPrivate).length} private`);
     if (!repos.pageInfo.hasNextPage) {
       break;
     }
