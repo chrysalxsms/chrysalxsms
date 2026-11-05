@@ -19,7 +19,7 @@ jobs:
           node-version: 20
       - name: Build cards
         env:
-          GH_TOKEN: ${{ secrets.PIXEL_CARDS_TOKEN || github.token }}
+          GH_TOKEN: ${{ secrets.CARDS_TOKEN || github.token }}
         run: node cards/build.mjs
       - name: Commit changes
         run: |
