@@ -1,11 +1,11 @@
 name: Pixel cards
 on:
   schedule:
-    - cron: "30 0 * * *"     # daily, 30 min after the metrics job
+    - cron: "0 * * * *"
   workflow_dispatch:         # lets you run it manually
   push:
     branches: [main]
-    paths: ["cards/**", ".github/workflows/pixel-cards.yml"]
+    paths: ["cards/**", "assets/**", ".github/workflows/pixel-cards.yml"]
 permissions:
   contents: write            # so the action can commit the SVGs
 concurrency: pixel-cards
@@ -19,8 +19,6 @@ jobs:
           node-version: 20
       - name: Build cards
         env:
-          # A token that can read your private repos (classic PAT with "repo" scope).
-          # Falls back to the built-in token, which only sees public repos.
           GH_TOKEN: ${{ secrets.PIXEL_CARDS_TOKEN || github.token }}
         run: node cards/build.mjs
       - name: Commit changes
