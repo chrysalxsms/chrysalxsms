@@ -6,7 +6,7 @@
 
 <img src="assets/toolbox-17eb51f5.svg" width="100%" alt="Toolbox: Python, Java, JavaScript, TypeScript, HTML, CSS, Haskell, C, SQL, Git, Godot, Linux" />
 
-<img src="assets/languages-bar-021dd777.svg" width="100%" alt="Languages I write" />
+<img src="assets/languages-bar-4b8a7ba1.svg" width="100%" alt="Languages I write" />
 
 <img src="assets/practice-cards-cfc45a2d.svg" width="100%" alt="LeetCode and NeetCode practice" />
 
