@@ -1,7 +1,7 @@
 name: Pixel cards
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:         # lets you run it manually
   push:
     branches: [main]
