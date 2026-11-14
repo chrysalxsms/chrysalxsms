@@ -6,8 +6,8 @@
 
 <img src="assets/toolbox-17eb51f5.svg" width="100%" alt="Toolbox: Python, Java, JavaScript, TypeScript, HTML, CSS, Haskell, C, SQL, Git, Godot, Linux" />
 
-<img src="assets/languages-bar-cae72826.svg" width="100%" alt="Languages I write" />
+<img src="assets/languages-bar-4aeb73e7.svg" width="100%" alt="Languages I write" />
 
-<img src="assets/practice-cards-be103b97.svg" width="100%" alt="LeetCode and NeetCode practice" />
+<img src="assets/practice-cards-5d8ff149.svg" width="100%" alt="LeetCode and NeetCode practice" />
 
 <a href="https://github.com/chrysalxsms/computational-geometry-visualisers"><img src="assets/project-c842785b.svg" width="100%" alt="Project: Computational Geometry Visualisers" /></a>
